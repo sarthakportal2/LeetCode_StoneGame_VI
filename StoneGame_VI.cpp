@@ -1,6 +1,7 @@
 class Solution {
 public:
     int stoneGameVI(vector<int>& a, vector<int>& b) {
+         //T(C(N)==O(N)) and S(C(N)==O(N)) as it requires non contigous memory space allocation iteratively
         int i=a.size()-1,a1=0,a2=0;//variables declare and initializing 
         vector<vector<int>>v;//vector delcare
         for(int i=0;i<a.size();i++)//Iterating through vector's size 
